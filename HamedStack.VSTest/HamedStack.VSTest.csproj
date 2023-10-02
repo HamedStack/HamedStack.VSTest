@@ -13,7 +13,11 @@
         <RepositoryUrl>https://github.com/HamedStack/HamedStack.VSTest</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Include="Schema\*.xsd" />
     </ItemGroup>
